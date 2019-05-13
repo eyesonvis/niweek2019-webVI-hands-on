@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0962F4E4FE2798BA1609FFFCB89CC166842AFBD8C58FB74DF04F7D42AE429C1CF463EEF1C27EFE9EC80EB6F4A14FFD9AB73525A4B4F6A78A4B831F2D3525C188" Timestamp="1D4FFBD17CEF1AA" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.0.49504" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.0.49504" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" UserVersion="0.0.0.52" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="24" Id="40" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="23" Id="41" />
+			<ComponentItemProperties AssociatedEnvoyId="56" Id="59" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3219f72c22784e89acc55d3af47a0414" Id="a657e97b80b545be95792ecbaab39438" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="4088d80633f440ba81caca4b9c44bf94" Id="12b7abd3ee8b4781861a5602ccb923db" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="121bff19eb6f4e4b924bc5d18b0d5218" Id="c6b2548433224f2aa1d3e87a2f43467f" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="Application">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="20" Name="Images">
+					<EmbeddedDefinitionReference Id="23" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="NI_settings.svg">
+						<ExternalFile>
+							<p.StoragePath>"Images\\NI_settings.svg"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="24" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="NI_thermometer.svg">
+						<ExternalFile>
+							<p.StoragePath>"Images\\NI_thermometer.svg"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4088d80633f440ba81caca4b9c44bf94" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="NI_location.png">
+						<ExternalFile>
+							<p.StoragePath>"Images\\NI_location.png"</p.StoragePath>
+						</ExternalFile>
+					</EmbeddedDefinitionReference>
+				</NameScopingEnvoy>
+				<SourceFileReference Id="56" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Temperature Monitor.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Temperature Monitor.gviweb" />
+				<EmbeddedDefinitionReference Id="3219f72c22784e89acc55d3af47a0414" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="temperatureMonitor.css">
+					<ExternalFile>
+						<p.StoragePath>temperatureMonitor.css</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f77fcb65eb884996ad253f548e1a77a9" Name="subVIs">
+					<SourceFileReference Id="121bff19eb6f4e4b924bc5d18b0d5218" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Limit Test.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="subVIs\Limit Test.gviweb" />
+					<SourceFileReference Id="bd79f2ed5d3d4267b56729d217604fca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create Map Markers.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="subVIs\Create Map Markers.gviweb" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Temperature Monitor WebApp.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
